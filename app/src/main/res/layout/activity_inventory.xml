@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/InventoryFrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Linear Layout with Logo, App Name, and Item Grid -->
+    <LinearLayout
+        android:id="@+id/InventoryGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/TopBarLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/inventory_app_logo" />
+
+        <TextView
+            android:id="@+id/PageTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bodoni_moda_bold"
+            android:text="@string/inventory"
+            android:textAlignment="center"
+            android:textSize="26sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/InventoryRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Floating Action Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/add_item"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="#48444E"
+        app:fabSize="auto"
+        app:tint="@android:color/white" />
+
+    <!--  Notification Button  -->
+    <ImageButton
+        android:id="@+id/NotificationButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:contentDescription="@string/sms_notification"
+        android:focusable="true"
+        android:src="@drawable/ic_notification" />
+
+</FrameLayout>

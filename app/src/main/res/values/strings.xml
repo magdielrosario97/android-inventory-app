@@ -1,0 +1,33 @@
+<resources>
+    <!--  TODO: Reorganize  -->
+    <string name="app_name">Inventory App</string>
+    <string name="logo_desc">App Logo</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="logo_content_desc">Shipping Box Logo</string>
+    <string name="inventory">Inventory</string>
+    <string name="add_item">Add Item</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_stock">Item Stock</string>
+    <string name="item_sku">SKU</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="confirm_delete">Are you sure you want to delete this item?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="item_updated">Item updated successfully</string>
+    <string name="item_deleted">Item deleted successfully</string>
+    <string name="back">Back</string>
+    <string name="toast_item_added">Item added!</string>
+    <string name="toast_changes_saved">Changes saved!</string>
+    <string name="toast_item_deleted">Item deleted!</string>
+    <string name="new_item">New Item</string>
+    <string name="sms_notification">SMS Notifications</string>
+    <string name="sms_prompt">Allow Inventory App to send SMS notifications for low stock items?</string>
+    <string name="enable">Enable</string>
+    <string name="deny">Deny</string>
+    <string name="skip">Skip</string>
+</resources>
