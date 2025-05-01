@@ -1,4 +1,4 @@
-# CS-360 Mobile Architect and Programming Portfolio
+# Android Inventory App
 ### Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 
 The goal of my app was to create a lightweight inventory management tool that would allow users to keep track of items, stock levels, and basic details. It was designed to be simple enough for individuals and small business owners who needed a quick way to add, edit, or remove inventory without needing an internet connection. The user need it was built around was making inventory management easy, fast, and available offline with minimal setup.
